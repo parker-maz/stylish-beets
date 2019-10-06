@@ -22,11 +22,17 @@ ol li {
   list-style-type: none;
 }
 
-a:link {
+nav > ol > li a:link {
   text-decoration: none;
   font-weight: bold;
   font-family: "PT sans", sans-serif;
   color: #8f2440;
+
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 .germ {
@@ -37,9 +43,17 @@ a:link {
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
-  font-weight: light;
 }
 
 strong {
   font-weight: normal;
+}
+
+.chris {
+  line-height: 4;
+  font-size: 0.8rem;
+}
+
+#greek > li {
+  list-style-type: lower-greek;
 }
