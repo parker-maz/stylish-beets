@@ -11,7 +11,7 @@ img {
 }
 
 h1, h2 {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
@@ -21,6 +21,10 @@ figcaption {
   font-size: .8rem;
   text-align: center;
   font-style: italic;
+}
+
+li {
+  font-size: .8rem;
 }
 
 ol li {
@@ -62,12 +66,13 @@ strong {
   font-weight: normal;
 }
 
-.chris {
+footer {
   line-height: 4;
   font-size: .8rem;
 }
 
 #greek > li {
+  font-size: .8rem;
   list-style-type: lower-greek;
 }
 
@@ -90,6 +95,9 @@ dt {
 }
 
 ul li {
-  font-size: .8rem;
   list-style: circle;
+}
+
+#ss, dt, dd {
+  font-size: .8rem;
 }
