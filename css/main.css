@@ -1,7 +1,7 @@
 html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: #222;
   line-height: 1.5;
 }
@@ -31,7 +31,6 @@ nav > ol > li a:link {
   font-weight: bold;
   font-family: "PT sans", sans-serif;
   color: #8f2440;
-
 }
 
 nav > ol > li a:hover {
@@ -55,19 +54,31 @@ strong {
 
 .chris {
   line-height: 4;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 #greek > li {
   list-style-type: lower-greek;
 }
 
-footer a:link {
+a:link {
   text-decoration: none;
   color: #8f2440;
 }
 
-footer a:hover {
+a:hover {
   text-decoration: underline;
   color: #3f1622;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#ss {
+  font-style: italic;
+}
+
+ul li {
+  list-style: circle;
 }
