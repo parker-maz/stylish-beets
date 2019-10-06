@@ -1,6 +1,7 @@
 html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
+  font-size: 0.8rem;
   color: #222;
   line-height: 1.5;
 }
@@ -9,13 +10,15 @@ img {
   width: 100%;
 }
 
-h1 {
+h1, h2 {
+  font-size: 1.5rem;
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
 
 ol li {
+  font-size: 1.125rem;
   list-style-type: none;
 }
 
