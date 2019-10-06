@@ -14,3 +14,14 @@ h1 {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
+
+ol li {
+  list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "PT sans", sans-serif;
+  color: #8f2440;
+}
